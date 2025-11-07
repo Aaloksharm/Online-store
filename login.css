@@ -1,0 +1,102 @@
+/* Reset styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Background styling */
+body {
+   background-image: url('naruto.jpg'); /* Replace with your image */
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Login box */
+.login-container {
+   background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+   padding: 40px 35px;
+   border-radius: 15px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+   width: 350px;
+   text-align: center;
+   transition: transform 0.2s ease;
+}
+
+.login-container:hover {
+   transform: scale(1.02);
+}
+
+/* Title */
+h2 {
+   margin-bottom: 25px;
+   color: #ffffff;
+   font-size: 24px;
+}
+
+/* Input fields */
+.input-field {
+   margin-bottom: 20px;
+   text-align: left;
+}
+
+.input-field label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: #ddd;
+}
+
+.input-field input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   font-size: 14px;
+   transition: 0.3s;
+}
+
+.input-field input:focus {
+   border-color: #4CAF50;
+   outline: none;
+   box-shadow: 0 0 5px #4CAF50;
+}
+
+/* Button */
+.login-btn {
+   width: 100%;
+   padding: 12px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+   background-color: #45a049;
+}
+
+/* Extra links */
+.extra-links {
+   margin-top: 20px;
+   font-size: 14px;
+}
+
+.extra-links a {
+   color: #00aaff;
+   text-decoration: none;
+   margin: 0 5px;
+}
+
+.extra-links a:hover {
+   text-decoration: underline;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>E-Commerce Dashboard</title>
+   <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+   <!-- Sidebar -->
+   <aside class="sidebar">
+      <h2>SHOP</h2>
+      <ul>
+         <li><a href="#" class="button active">🏠 Dashboard</a></li>
+         <li><a href="#">📦 Products</a></li>
+         <li><a href="#">🛍️ Orders</a></li>
+         <li><a href="#">👥 Customers</a></li>
+         <li><a href="#">💰 Transactions</a></li>
+         <li><a href="#">⚙️ Settings</a></li>
+         <li><a href="login.html">🚪 Logout</a></li>
+      </ul>
+   </aside>
+
+   <!-- Main Content -->
+   <main class="main-content">
+      <header class="header">
+         <div>
+            <h1>Welcome 👋</h1>
+            <p>Hamro store Ramro store</p>
+         </div>
+         <input type="text" class="search-bar" placeholder="🔍 Search products, orders...">
+      </header>
+
+      <!-- Stats Cards -->
+      <section class="cards">
+         <div class="card card1">
+            <h3>Total Sales</h3>
+            <p>$15,430</p>
+         </div>
+         <div class="card card2">
+            <h3>Orders</h3>
+            <p>1,253</p>
+         </div>
+         <div class="card card3">
+            <h3>Customers</h3>
+            <p>892</p>
+         </div>
+         <div class="card card4">
+            <h3>Revenue</h3>
+            <p>$28,640</p>
+         </div>
+      </section>
+
+      <!-- Recent Orders Table -->
+      <section class="overview">
+         <h2>Recent Orders</h2>
+         <table>
+            <thead>
+               <tr>
+                  <th>Order ID</th>
+                  <th>Customer</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Amount</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>#1023</td>
+                  <td>John Doe</td>
+                  <td>Nov 5, 2025</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                  <td>$230</td>
+               </tr>
+               <tr>
+                  <td>#1024</td>
+                  <td>Sarah Smith</td>
+                  <td>Nov 6, 2025</td>
+                  <td><span class="status pending">Pending</span></td>
+                  <td>$540</td>
+               </tr>
+               <tr>
+                  <td>#1025</td>
+                  <td>Mike Brown</td>
+                  <td>Nov 7, 2025</td>
+                  <td><span class="status cancelled">Cancelled</span></td>
+                  <td>$120</td>
+               </tr>
+               <tr>
+                  <td>#1026</td>
+                  <td>Emma Wilson</td>
+                  <td>Nov 7, 2025</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                  <td>$320</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+         <p>© 2025 | ShopAdmin | All Rights Reserved</p>
+      </footer>
+   </main>
+
+</body>
+</html>
